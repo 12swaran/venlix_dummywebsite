@@ -1,0 +1,16 @@
+{
+  "name": "@aurelia/backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file-if-exists=../.env --watch server.js",
+    "start": "node --env-file-if-exists=../.env server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
